@@ -25,7 +25,7 @@ if SERVER then
 						Color( 100, 100, 255, 255 ), "[CS:S CHECK] ",
 						Color( 200, 120, 0, 255 ), "CS:S is missing/incomplete. Please install CS:S and make sure it's updated! Ressources can be grabbed here:")
 						ULib.tsayColor( player, true,
-						Color( 200, 120, 0, 255 ), "https://fs.mightful-noobs.de/CSSContent_Jun2018.zip")
+						Color( 200, 120, 0, 255 ), "https://mega.nz/file/aIYHRYgS#z7ASATWZaxfkiMXzTjgiyEbxvE7ikR9CiVYvOwZqqTM")
 				--end
 			end
 			-- The player gets kicked if CS:S is not found
