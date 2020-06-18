@@ -18,7 +18,7 @@ if SERVER then
 			local players = player.GetAll()
 			
 			-- Remove ULib requirement
-			-- If ULib is installed we print a kick message
+			-- If ULib is installed we print a warn message
 			if ULib then
 				--for _, player in ipairs( players ) do
 						ULib.tsayColor( ply, true,
@@ -28,7 +28,7 @@ if SERVER then
 						Color( 200, 120, 0, 255 ), "https://mega.nz/file/aIYHRYgS#z7ASATWZaxfkiMXzTjgiyEbxvE7ikR9CiVYvOwZqqTM")
 				--end
 			end
-			-- The player gets kicked if CS:S is not found
+			-- The player gets warned if CS:S is not found
 			ServerLog("[CSS CHECK] Printing Message to " .. ply:Nick() .. " for missing some files!\n")
 		end
 		
