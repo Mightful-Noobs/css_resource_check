@@ -1,6 +1,6 @@
 if SERVER then
 
-	-- Kick reason to show players who are missing CS:S
+	-- Warning reason to show players who are missing CS:S
 	CS_CHECK_WARNING = "CS:S is missing/incomplete. Please install CS:S and make sure it's updated! Ressources can be grabbed here: https://mega.nz/file/aIYHRYgS#z7ASATWZaxfkiMXzTjgiyEbxvE7ikR9CiVYvOwZqqTM"
 
 	-- Number of files to check. Don't go too high with this, otherwise errors may occur
